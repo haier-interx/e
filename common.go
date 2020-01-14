@@ -21,4 +21,5 @@ var (
 	COMMON_INTERNAL_CALLING_ERR     = &Err{15001, "internal calling error"}
 	COMMON_INTERNAL_CALLING_TIMEOUT = &Err{15002, "internal calling timeout"}
 	COMMON_INTERNAL_DB_ERR          = &Err{15003, "internal database error"}
+	COMMON_INTERNAL_BADGATEWAY      = &Err{15004, "bad gateway"}
 )
