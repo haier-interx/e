@@ -28,6 +28,14 @@ func NewBadRequestError(msg string) *Err {
 	return &Err{COMMON_BADREQUEST.Code, msg}
 }
 
+func NewNotFoundError(msg string) *Err {
+	return &Err{COMMON_NOT_FOUND.Code, msg}
+}
+
+func NewConflictError(msg string) *Err {
+	return &Err{COMMON_CONFILCT.Code, msg}
+}
+
 func NewInternalError(msg string) *Err {
 	return &Err{COMMON_INTERNAL_ERR.Code, msg}
 }
